@@ -1,0 +1,58 @@
+smartctl 6.3 2014-07-26 r3976 [FreeBSD 10.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG0300FAWHV
+Revision:             HPDF
+User Capacity:        300,000,000,000 bytes [300 GB]
+Logical block size:   512 bytes
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c50002decc07
+Serial number:        3SE286LL00009043Z84C
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Thu Mar 26 01:10:36 2015 PDT
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     31 C
+Drive Trip Temperature:        65 C
+
+Elements in grown defect list: 0
+
+Vendor (Seagate) cache information
+  Blocks sent to initiator = 2315651287
+  Blocks received from initiator = 2848890300
+  Blocks read from cache and sent to initiator = 64321311
+  Number of read and write commands whose size <= segment size = 1405364338
+  Number of read and write commands whose size > segment size = 0
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 34214.82
+  number of minutes until next internal SMART test = 55
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0  1706878473          0     490524.122           0
+write:         0        0         0         0          0      81090.774           0
+verify:        0        0         0         3          0          0.000           0
+
+Non-medium error count:       17
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Background short  Completed                   -   34213                 - [-   -    -]
+# 2  Background short  Completed                   -      12                 - [-   -    -]
+# 3  Background short  Completed                   -       2                 - [-   -    -]
+
+Long (extended) Self Test duration: 3070 seconds [51.2 minutes]
+
